@@ -1,0 +1,83 @@
+.green { 
+    background-color:rgb(86, 180, 86);
+}
+
+.yellow {
+    background-color: rgb(255, 233, 107);
+}
+
+.grey {
+    background-color: darkgrey;
+}
+
+.neutral {
+    background-color: whitesmoke;
+}
+
+.green, .yellow, .grey, .neutral {
+    font-size: 40px;
+    border-style: solid;
+    margin: 10px; 
+    padding: 10px;
+    min-width: 40px;
+    height: 50px;
+    text-align: center;
+}
+
+.button {
+    height: 75px; 
+width: 75px; 
+font-weight: bolder;
+font-size: 20px;
+border-style: solid;
+margin: 2px;
+}
+
+.button:hover { 
+    background-color: lightgrey
+  }
+
+.deactivatedButton {
+    height: 75px; 
+width: 75px; 
+font-weight: bolder;
+font-size: 20px;
+border-style: solid;
+margin: 2px;
+background-color: grey;
+color: lightgray;
+}
+
+.submitButton {
+    height: 50px; 
+    width: 100px; 
+    margin-left: 680px;
+    margin-right: auto;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.word {
+    margin-left: 680px;
+    margin-right: auto;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.keypad {
+    margin-left:auto;margin-right:auto;
+ 
+}
+
+
+
+.secondRow {
+    position:relative; left:30px;
+}
+
+.thirdRow {
+    position:relative; left:60px;
+}
